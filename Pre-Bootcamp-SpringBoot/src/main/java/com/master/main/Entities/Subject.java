@@ -41,4 +41,10 @@ public class Subject {
     public void setStudent(Student student) {
         this.student = student;
     }
+
+	@Override
+	public String toString() {
+		return "Subject [sub_id=" + sub_id + ", name=" + name + ", student=" + student + "]";
+	}
+    
 }
